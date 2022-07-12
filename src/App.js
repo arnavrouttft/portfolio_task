@@ -31,6 +31,9 @@ function App() {
         <a href="profileShared" class="button1">Share Profile</a>
       </div>
 
+      <div className="arnav">Arnav loves</div>
+      <div className="interest">travelling either to beaches or to mountains &#127748;</div>
+
       <Icons />
 
       <div className="banner">
@@ -49,6 +52,9 @@ function App() {
       <div className="boxAnimation">
         <img className="kashmir" src={kashmirimage} alt="Kashmir" />
         <p className="k">Kashmir</p>
+        <p className="date">Date:</p>
+          <p className="month">August 2022</p>
+         <div className="bookNow">Book Now</div>
       </div>
 
       

@@ -2,41 +2,17 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.position{
+  margin-left: 74%;
+  font-size: 1.2rem;
+  margin-bottom: -25px;
 }
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.me-auto {
+  margin-left: 30px;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .coverimage {
   width: 100%;
@@ -120,10 +96,32 @@
   margin-left: -680px;
 }
 
+.arnav {
+  font-family: "Trattatello, fantasy";
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: -63%;
+  margin-top: 30px;
+  color: #282829;
+}
+
+.interest {
+  font-family: "Trattatello, fantasy";
+  font-weight: bold;
+  font-size: 19px;
+  color: #fb7686;
+  margin-top: -30px;
+  margin-left: -23%;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+
+}
+
 /*--------Card Image---------*/
 .banner {
   position: relative;
   width: 100%;
+  margin-top: 20px;
 
 }
 
@@ -201,7 +199,7 @@
 .tour{
   font-family: "Trattatello, fantasy";
   font-weight: bold;
-  margin-bottom: 320px;
+  margin-bottom: 300px;
   margin-left: -650px;
   font-size: 25px;
 }
@@ -220,6 +218,31 @@
   margin-left: 20px;
 }
 
+.date {
+  font-family: "Trattatello, fantasy";
+  margin-left: 2px;
+  color: #2134ad;
+  font-weight:bolder
+}
+.month {
+  font-family: "Trattatello, fantasy";
+  margin-left: 17%;
+  color: red;
+  margin-top: -40px;
+  font-weight:bolder
+}
+
+.bookNow {
+  width: 25%;
+  position: absolute;
+  border: 1px solid purple;
+  border-radius: 50px;
+  margin-left: 205px;
+  background-color: purple;
+  color: whitesmoke;
+  position: static;
+}
+
 .boxAnimation {
   clear: both;
   float: left;
@@ -228,6 +251,7 @@
   width: 450px;
   height: 180px;
   background-color: transparent;
+  /* box-shadow: 1px 1px 1px 1px purple; */
 }
 
 .boxAnimation:hover {
@@ -241,6 +265,6 @@
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
   }
 }
