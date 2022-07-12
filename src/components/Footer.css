@@ -1,0 +1,20 @@
+
+p {
+    width: 100%;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #182334;
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.aa {
+    padding: 10px;
+    font-size: 30px;
+}
+
