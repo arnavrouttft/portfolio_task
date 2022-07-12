@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import cover from "./images/CoverPic.jpg";
 import profile from "./images/dpProfile.png";
-import cardimage from "./images/fadeImage.jpeg"
+import cardimage from "./images/fadeImage.jpeg";
+import kashmirimage from "./images/kashmir.jpeg";
 import Icons from "./components/Icons";
 import Footer from "./components/Footer";
 
@@ -42,7 +43,15 @@ function App() {
         <p className="p3">Travel can inspire you to pursue your passion.</p>
       </div>
 
+      <div className="tour">
+          Upcoming Tour Plan
+      </div>
+      <div className="boxAnimation">
+        <img className="kashmir" src={kashmirimage} alt="Kashmir" />
+        <p className="k">Kashmir</p>
+      </div>
 
+      
 
       <Footer />
 

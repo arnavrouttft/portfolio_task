@@ -9,13 +9,13 @@ function Icons() {
 
       <link rel="stylesheet" href="IconsStyle.css" />
 
-    <div className="social-apps flex">
+    <div className="social-apps">
 
-      <span><a href="https://www.facebook.com/"> <span class="fa fa-facebook-f social "> </span> </a> </span>
-      <span><a href="https://www.instagram.com/"> <span class="fa fa-instagram social"> </span> </a> </span>
-      <span><a href="https://www.linkedin.com/"> <span class="fa fa-linkedin social"> </span> </a> </span>
-      <span><a href="https://www.twitter.com/"> <span class="fa fa-twitter social"> </span> </a> </span>
-      <span><a href="https://www.youtube.com/"> <span class="fa fa-youtube social"> </span> </a> </span>
+      <span><a className="padd" href="https://www.facebook.com/"> <span class="fa fa-facebook-f social "> </span> </a> </span>
+      <span><a className="padd" href="https://www.instagram.com/"> <span class="fa fa-instagram social"> </span> </a> </span>
+      <span><a className="padd" href="https://www.linkedin.com/"> <span class="fa fa-linkedin social"> </span> </a> </span>
+      <span><a className="padd" href="https://www.twitter.com/"> <span class="fa fa-twitter social"> </span> </a> </span>
+      <span><a className="padd" href="https://www.youtube.com/"> <span class="fa fa-youtube social"> </span> </a> </span>
       </div>
 
     </div>

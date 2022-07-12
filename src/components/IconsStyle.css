@@ -22,7 +22,15 @@ span a {
     height: 40px;
     background-color: yellowgreen;
     font-size: 30px;
-    margin: 0, 10px;
     display: inline-block;
     border-radius: 50%;
+}
+
+.social-apps {
+    margin-bottom: 66px;
+    width: 260px;
+    padding: 20px;
+    border: 5px solid gray;
+    margin: 0;
+    background-color: white;
 }
