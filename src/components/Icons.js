@@ -9,16 +9,7 @@ function Icons() {
 
       <link rel="stylesheet" href="IconsStyle.css" />
 
-    {/* <div className="social-apps">
-
-      <span><a className="padd" href="https://www.facebook.com/"> <span class="fa fa-facebook-f social "> </span> </a> </span>
-      <span><a className="padd" href="https://www.instagram.com/"> <span class="fa fa-instagram social"> </span> </a> </span>
-      <span><a className="padd" href="https://www.linkedin.com/"> <span class="fa fa-linkedin social"> </span> </a> </span>
-      <span><a className="padd" href="https://www.twitter.com/"> <span class="fa fa-twitter social"> </span> </a> </span>
-      <span><a className="padd" href="https://www.youtube.com/"> <span class="fa fa-youtube social"> </span> </a> </span>
-      </div> */}
-
-      <div className="card2">
+      <div className="iconsdesign">
         <h3>Places</h3>
         <div>
           <span><a href="https://www.facebook.com/" ><img className="padd" src="https://img.icons8.com/color/48/000000/facebook-circled--v1.png" alt="" width="35px" height="35px"/></a></span>

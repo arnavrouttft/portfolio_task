@@ -12,6 +12,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
+     <div className="appLogo">
+      <img src="https://img.icons8.com/doodle/48/000000/grand-canyon.png" alt="logo" />
+     </div>
       <Navbar />
 
       <div id="parent"> 
