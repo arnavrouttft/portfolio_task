@@ -4,13 +4,14 @@ import './Footer.css'
 function Footer() {
   return (
     <footer>
-      <div>
-                <a className='aa' href="https://www.facebook.com/"><i className='fa fa-facebook-f '></i></a>
+              <div>
+                <a className='aa' href="https://facebook.com/"><i className='fa fa-facebook-f '></i></a>
                 <a className='aa' href="https://www.instagram.com/"><i className='fa fa-instagram '></i></a>
                 <a className='aa' href="https://www.twitter.com/"><i className='fa fa-twitter '></i></a>
                 <a className='aa' href="https://www.linkedin.com/"><i className='fa fa-linkedin '></i></a>
                 <a className='aa' href="https://www.youtube.com/"><i className='fa fa-youtube '></i></a>
               </div>
+
       <div className='container'>
         <div className='row1'>
           <div className='col-6  mx-auto'>

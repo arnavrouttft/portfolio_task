@@ -4,7 +4,8 @@ p {
 }
 
 footer {
-    padding: 30px 0;
+    margin-top: 30%;
+    padding: 50px 0;
     background-color: #182334;
     color: aliceblue;
 }
@@ -14,7 +15,7 @@ footer {
 }
 
 .aa {
-    padding: 10px;
+    padding: 30px;
     font-size: 30px;
 }
 
