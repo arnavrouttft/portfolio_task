@@ -1,0 +1,39 @@
+
+.form {
+    padding: 15px;
+    margin-left: 190px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 2px 2px blue;
+    align-items: center;
+    
+}
+
+.form input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trattatello, fantasy";
+    padding: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(skyblue, pink);
+    color: black;
+}
+
+.form button {
+    color: white;
+    background-color: royalblue;
+    font-family: "Trattatello, fantasy";
+    padding: 5px;
+}
+
+.travelPlan {
+    font-family: "Trattatello, fantasy";
+    font-size: 27px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-left: -645px;
+}
+

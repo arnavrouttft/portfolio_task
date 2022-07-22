@@ -1,0 +1,51 @@
+.dynamicIcon {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 101px;
+    width: 17%;
+    float: left;
+    background-color: aliceblue;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: -480px;
+    border: 1px;
+    border-style: outset;
+    font-family:"Trattatello, fantasy";
+    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+}
+
+.wrappp {
+    margin-left: 30%;
+}
+
+.urlBtn h5 button {
+    margin-left: 300px;
+}
+
+.place {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 80px;
+}
+
+.addbtn {
+    margin-right: -30px;
+    width: 20px;
+}
+
+.btnbtn {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.imgbtn{
+    margin-right: 80px;
+    align-items: center;
+    width:20px;
+}
+
+.btn2 {
+    margin-left: 10px;
+    width: 20px;
+}

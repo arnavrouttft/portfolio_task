@@ -7,14 +7,15 @@ import cardimage from "./images/fadeImage.jpeg";
 import kashmirimage from "./images/kashmir.jpeg";
 import Icons from "./components/Icons";
 import Footer from "./components/Footer";
-
+import FirebaseDemo from "./components/FirebaseDemo";
+import Place from "./components/Place";
 
 function App() {
   return (
     <div className="App">
-     <div className="appLogo">
+     {/* <div className="appLogo">
       <img src="https://img.icons8.com/doodle/48/000000/grand-canyon.png" alt="logo" />
-     </div>
+     </div> */}
       <Navbar />
 
       <div id="parent"> 
@@ -36,6 +37,9 @@ function App() {
 
       <div className="arnav">Arnav loves</div>
       <div className="interest">travelling either to beaches or to mountains &#127748;</div>
+
+      <Place/>
+
 
       <Icons />
 
@@ -60,9 +64,10 @@ function App() {
          <div className="bookNow">Book Now</div>
       </div>
 
-      
+      <FirebaseDemo/>
 
-      <Footer />
+
+     <Footer />
 
     </div>
   );

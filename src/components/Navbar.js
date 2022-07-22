@@ -1,22 +1,25 @@
 import React from 'react'
-import {Navbar, Nav, Container} from "react-bootstrap";
+import "./Navbar.css";
+//import {Navbar, Nav, Container} from "react-bootstrap";
 
 function Navbarr() {
   return (
-    <div className='position'>
-        <Navbar expand="lg">
-  <Container>
-    <Navbar.Brand href="#home">Help</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav>
-        <Nav.Link className="me-auto" href="#signIn">Sign In</Nav.Link>
-        <Nav.Link className="me-auto" href="#logIn">Log In</Nav.Link>
-      </Nav>
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
+    <div>
+   
+  <header>
+    <div className='mainHeading'>
+      <div className="navbar">
+        <a href="travelTour" className="t">TRAVEL.</a>
+        <ul className='navMenu'>
+          <ul className='navLink'><a href="home">Home</a></ul>
+          <ul className='navLink'><a href="about">About</a></ul>
+          <ul className='navLink'><a href="signIn">Sign In</a></ul>
+        </ul>
+      </div>
     </div>
+  </header>
+ 
+</div>
   )
 }
 

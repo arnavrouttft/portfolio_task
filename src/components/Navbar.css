@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.mainHeading {
+    padding: 5px;
+    height: 65px;
+    background-image: linear-gradient(skyblue, pink);
+}
+
+.t{
+    font-size: 30px;
+    font-family: "Trattatello, fantasy";
+}
+
+.navbar {
+    font-family: "Trattatello, fantasy";
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBranding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+   
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
