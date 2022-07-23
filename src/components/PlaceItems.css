@@ -5,7 +5,7 @@
     width: 17%;
     float: left;
     background-color: aliceblue;
-    height: 350px;
+    height: 400px;
     border-radius: 20px;
     margin-top: -480px;
     border: 1px;
@@ -15,7 +15,7 @@
 }
 
 .wrappp {
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
 .urlBtn h5 button {
@@ -43,6 +43,7 @@
     margin-right: 80px;
     align-items: center;
     width:20px;
+
 }
 
 .btn2 {
