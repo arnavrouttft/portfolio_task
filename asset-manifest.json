@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio_task/static/css/main.8075567b.css",
+    "main.js": "/portfolio_task/static/js/main.303ac5c0.js",
+    "static/js/787.30237536.chunk.js": "/portfolio_task/static/js/787.30237536.chunk.js",
+    "static/media/CoverPic.jpg": "/portfolio_task/static/media/CoverPic.0066cc5d33074310e670.jpg",
+    "static/media/tiktok.png": "/portfolio_task/static/media/tiktok.69d61da0f19c3ae612a8.png",
+    "static/media/youtubewhite.png": "/portfolio_task/static/media/youtubewhite.5ef29ecd695ef3615c7e.png",
+    "static/media/fadeImage.jpeg": "/portfolio_task/static/media/fadeImage.45d86fbcc87cfa7c4318.jpeg",
+    "static/media/twitter.png": "/portfolio_task/static/media/twitter.4504ce6c36782ae9f687.png",
+    "static/media/InstagramWHITE.png": "/portfolio_task/static/media/InstagramWHITE.1d0e6a528be5655e7451.png",
+    "static/media/dpProfile.png": "/portfolio_task/static/media/dpProfile.871ba018ce0fbe9e423a.png",
+    "static/media/addImage.png": "/portfolio_task/static/media/addImage.da85ff346df0dd776650.png",
+    "static/media/twitterwhite.png": "/portfolio_task/static/media/twitterwhite.3057c0ad5daa5084f819.png",
+    "static/media/facebookwhite.png": "/portfolio_task/static/media/facebookwhite.fef8c189891d7ac470c9.png",
+    "static/media/youtube.png": "/portfolio_task/static/media/youtube.6f94014b3e3ebb8d34c6.png",
+    "static/media/facebook.png": "/portfolio_task/static/media/facebook.85afe754d8b87e4ae50c.png",
+    "static/media/linkedinwhite.png": "/portfolio_task/static/media/linkedinwhite.493e459b19f8cbad8b12.png",
+    "index.html": "/portfolio_task/index.html",
+    "main.8075567b.css.map": "/portfolio_task/static/css/main.8075567b.css.map",
+    "main.303ac5c0.js.map": "/portfolio_task/static/js/main.303ac5c0.js.map",
+    "787.30237536.chunk.js.map": "/portfolio_task/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8075567b.css",
+    "static/js/main.303ac5c0.js"
+  ]
+}
