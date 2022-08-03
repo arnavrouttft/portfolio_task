@@ -109,14 +109,13 @@
 @media (min-width: 471px) and (max-width: 969px) {
     .dynamicIcon {
         position: absolute;
-        margin-left: 65%;
-        margin-top: 101px;
-        width: 17%;
+        margin-left: 62%;
+        width: 27%;
         float: left;
         background-color: aliceblue;
-        height: 400px;
+        height: 350px;
         border-radius: 20px;
-        margin-top: -470px;
+        margin-top: -440px;
         border: 1px;
         border-style: outset;
         font-family:"Trattatello, fantasy";

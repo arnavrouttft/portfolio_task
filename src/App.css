@@ -341,7 +341,7 @@
   
   .coverimage {
     width: 100%;
-    height: 350px;
+    height: 250px;
     margin-top: 40px;
     border: 1px;
     border-style: outset;
@@ -350,11 +350,11 @@
   }
   
   .profileimage {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 320px;
-    left: 190px;
+    top: 240px;
+    left: 120px;
     border-radius: 200px;
     border: 3px solid royalblue;
    
@@ -385,7 +385,7 @@
   .userInfo1 {
     font-family:"Trattatello, fantasy";
     margin-top: 90px;
-    margin-left: -720px;
+    margin-left: -400px;
     margin-bottom: 14px;
     font-weight: bold;
    }
@@ -393,12 +393,13 @@
    .userInfo2 {
      font-family:"Trattatello, fantasy";
      margin-top: -10px;
-     margin-left: -780px;
+     margin-left: -440px;
      font-weight: bold;
     }
    
    .para {
-     margin-left: -216px;
+     margin-left: 100px;
+     text-align: left;
      margin-top: 20px;
      font-family:"Trattatello, fantasy";
    }
@@ -423,7 +424,7 @@
   
   .buttons {
     margin-top: 20px;
-    margin-left: -680px;
+    margin-left: -350px;
   }
   
   .arnav {
@@ -441,7 +442,7 @@
     font-size: 19px;
     color: #fb7686;
     margin-top: -30px;
-    margin-left: -23%;
+    margin-left: 3%;
     text-decoration: underline;
     text-decoration-style: wavy;
   
@@ -451,15 +452,15 @@
   .banner {
     position: relative;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 70px;
   
   }
   
   .banner img {
-    width: 720px;
+    width: 620px;
     height: 180px;
-    margin-top: 20px;
-    margin-left: -200px;
+    margin-top: 10px;
+    margin-left: -0px;
     box-shadow: 5px 5px 5px;
     margin-bottom: 100px;
     border: 5px solid oldlace;
@@ -471,10 +472,10 @@
     color: black;
     position: absolute;
     top: 10%;
-    right: 850px;
+    right: 450px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
-    font-size: 27px;
+    font-size: 25px;
   }
   
   .content {
@@ -484,7 +485,7 @@
     top: 110px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
   }
   
   .content1 {
@@ -494,14 +495,14 @@
     top: 110px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
   }
   
   .p1 {
     width: 100%;
     color: black;
     position: absolute;
-    right: 28%;
+    right: 27%;
     top: 115px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
@@ -512,7 +513,7 @@
     width: 100%;
     color: black;
     position: absolute;
-    right: 16%;
+    right: 14%;
     top: 115px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
@@ -523,7 +524,7 @@
     width: 100%;
     color: black;
     position: absolute;
-    left: -265px;
+    left: -110px;
     top: 157px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
@@ -533,13 +534,13 @@
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     margin-bottom: 30px;
-    margin-left: -655px;
+    margin-left: -370px;
     font-size: 25px;
   }
   
   /*----------Animation part--------------*/
   .kashmir {
-    width: 170px;
+    width: 140px;
     height: 100%;
     margin-left: -240px;
   }
@@ -548,7 +549,7 @@
     font-weight: bold;
     font-size: 20px;
     margin-top: -145px;
-    margin-left: 206px;
+    margin-left: 180px;
     display: flex;
   }
   
@@ -560,7 +561,7 @@
   }
   .month {
     font-family: "Trattatello, fantasy";
-    margin-left: 17%;
+    margin-left: 29%;
     color: red;
     margin-top: -40px;
     font-weight:bolder
@@ -571,7 +572,7 @@
     position: absolute;
     border: 1px solid purple;
     border-radius: 50px;
-    margin-left: 200px;
+    margin-left: 180px;
     background-color: purple;
     color: whitesmoke;
     position: static;
@@ -580,10 +581,10 @@
   .boxAnimation {
     clear: both;
     float: left;
-    margin-left: 14%;
+    margin-left: 5%;
     margin-bottom: 30px;
-    width: 450px;
-    height: 180px;
+    width: 400px;
+    height: 150px;
     background-image: linear-gradient(pink, skyblue);
     box-shadow: 1px 5px 20px rgb(99, 99, 99);
     border-radius: 10px;
@@ -617,8 +618,9 @@
   .bin {
     float: left;
     cursor: pointer;
-    margin-left: 25px;
-    margin-top: 145px;
+    margin-left: -30px;
+    margin-top: 160px;
+    margin-bottom: 15px;
   }
   
   .bin:hover {

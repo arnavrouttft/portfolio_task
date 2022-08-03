@@ -1,7 +1,5 @@
 @media (min-width: 970px) {
-    /* p {
-        width: 100%;
-    } */
+    
     
     footer {
         margin-top: 300px;
@@ -25,8 +23,7 @@
     
     
     .icicon {
-        /* margin-left: 450px; */
-        /* width: 30%; */
+        
         color: white;
         display: flex;
         justify-content: center;
@@ -54,8 +51,11 @@
         width: 100%;
     }
     
-    .container {
-        margin-top: 10px;
+    .about {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 120px;
+        margin-right: 120px;
         
     }
     
@@ -68,6 +68,11 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 20px;
+    }
+
+    .icicon img {
+        
+        margin-left: -350px;
     }
     
     
