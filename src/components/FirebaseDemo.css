@@ -1,39 +1,486 @@
-
-.form {
-    padding: 15px;
-    margin-left: 190px;
-    width: 300px;
-    height: 250px;
-    border: 1px solid blue;
-    box-shadow: 2px 2px 2px 2px blue;
-    align-items: center;
+@media (min-width: 970px) {
+    .form {
+        padding: 15px;
+        margin-left: 190px;
+        width: 300px;
+        height: 310px;
+        border: 1px solid blue;
+        clear: both;
+        float: left;
+        align-items: center;
+        
+        
+    }
+    
+    
+    .form:hover {
+        background: rgba(0,0,0,0);
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px royalblue;
+    }
+    
+    .form input {
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Trattatello, fantasy";
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        color: black;
+    }
+    
+    .form button {
+        color: white;
+        background-color: royalblue;
+        font-family: "Trattatello, fantasy";
+        padding: 5px;
+        margin-left: -10px
+       
+    }
+    
+    .form button:hover {
+        background: white;
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px white;
+        font-weight: bold;
+    }
+    .travelPlan {
+        font-family: "Trattatello, fantasy";
+        font-size: 27px;
+        color: black;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        clear: both;
+        float: left;
+        margin-left: 190px;
+    }
+    
+    
+    .addImage {
+        clear: both;
+        float: left;
+        margin-left: 250px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        padding: 5px;
+        border: 2px solid blue;
+        border-radius: 50px 50px;
+        box-shadow: 1px 5px 20px skyblue;
+    }
+    
+    .addImage:hover {
+        background-image: linear-gradient(pink, skyblue);
+        transition: transform .5s ease;
+        transform: scale(1.2);
+    }
+    
+    .popup {
+        position: fixed;
+    }
+    
+    .emptyMsg {
+        margin-left: -10px;
+    
+    }
+    
+    .emptyMsg h3 {
+        margin-left: 205px;
+        font-family: "Trattatello, fantasy";
+        font-size: 24px;
+        font-weight: bold;
+        color: blue;
+        background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%);
+        float: left;
+    }
+    
+    .travelPlan1 {
+        font-family: "Trattatello, fantasy";
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        clear: both;
+        float: left;
+        margin-left: 202px;
+    }
+    
+    
+    .form1 {
+        padding: 15px;
+        margin-left: 450px;
+        margin-top: 100px;
+        width: 300px;
+        height: 320px;
+        border: 1px solid royalblue;
+        clear: both;
+        float: left;
+        align-items: center;
+        box-shadow: 0 3px 10px royalblue;
+        
+    }
+    
+    
+    .form1:hover {
+        background: rgba(0,0,0,0);
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px royalblue;
+    }
+    
+    .form1 input {
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Trattatello, fantasy";
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        color: black;
+    }
+    
+    .form1 button {
+        color: white;
+        background-color: royalblue;
+        font-family: "Trattatello, fantasy";
+        padding: 5px;
+        margin-left: 80px;
+    }
+    
+    .form1 button:hover {
+        background: white;
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px white;
+        font-weight: bold;
+    }
+    
+    
     
 }
 
-.form input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Trattatello, fantasy";
-    padding: 10px;
-    margin-bottom: 10px;
-    background-image: linear-gradient(skyblue, pink);
-    color: black;
+@media (min-width: 471px) and (max-width: 969px) {
+    .form {
+        padding: 15px;
+        margin-left: 190px;
+        width: 300px;
+        height: 310px;
+        border: 1px solid blue;
+        clear: both;
+        float: left;
+        align-items: center;
+        
+    }
+    
+    
+    .form:hover {
+        background: rgba(0,0,0,0);
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px royalblue;
+    }
+    
+    .form input {
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Trattatello, fantasy";
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        color: black;
+    }
+    
+    .form button {
+        color: white;
+        background-color: royalblue;
+        font-family: "Trattatello, fantasy";
+        padding: 5px;
+        margin-left: -10px
+       
+    }
+    
+    .form button:hover {
+        background: white;
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px white;
+        font-weight: bold;
+    }
+    .travelPlan {
+        font-family: "Trattatello, fantasy";
+        font-size: 27px;
+        color: black;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        clear: both;
+        float: left;
+        margin-left: 190px;
+    }
+    
+    
+    .addImage {
+        clear: both;
+        float: left;
+        margin-left: 250px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        padding: 5px;
+        border: 2px solid blue;
+        border-radius: 50px 50px;
+        box-shadow: 1px 5px 20px skyblue;
+    }
+    
+    .addImage:hover {
+        background-image: linear-gradient(pink, skyblue);
+        transition: transform .5s ease;
+        transform: scale(1.2);
+    }
+    
+    .popup {
+        position: fixed;
+    }
+    
+    .emptyMsg {
+        margin-left: -10px;
+    
+    }
+    
+    .emptyMsg h3 {
+        margin-left: 205px;
+        font-family: "Trattatello, fantasy";
+        font-size: 24px;
+        font-weight: bold;
+        color: blue;
+        background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%);
+        float: left;
+    }
+    
+    .travelPlan1 {
+        font-family: "Trattatello, fantasy";
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        clear: both;
+        float: left;
+        margin-left: 202px;
+    }
+    
+    
+    .form1 {
+        padding: 15px;
+        margin-left: 450px;
+        margin-top: 100px;
+        width: 300px;
+        height: 320px;
+        border: 1px solid royalblue;
+        clear: both;
+        float: left;
+        align-items: center;
+        box-shadow: 0 3px 10px royalblue;
+        
+    }
+    
+    
+    .form1:hover {
+        background: rgba(0,0,0,0);
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px royalblue;
+    }
+    
+    .form1 input {
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Trattatello, fantasy";
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        color: black;
+    }
+    
+    .form1 button {
+        color: white;
+        background-color: royalblue;
+        font-family: "Trattatello, fantasy";
+        padding: 5px;
+        margin-left: 80px;
+    }
+    
+    .form1 button:hover {
+        background: white;
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px white;
+        font-weight: bold;
+    }
+    
+    
+    
 }
 
-.form button {
-    color: white;
-    background-color: royalblue;
-    font-family: "Trattatello, fantasy";
-    padding: 5px;
+@media (max-width: 470px) {
+    .form {
+        padding: 15px;
+        margin-left: 190px;
+        width: 300px;
+        height: 310px;
+        border: 1px solid blue;
+        clear: both;
+        float: left;
+        align-items: center;
+        
+    }
+    
+    
+    .form:hover {
+        background: rgba(0,0,0,0);
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px royalblue;
+    }
+    
+    .form input {
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Trattatello, fantasy";
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        color: black;
+    }
+    
+    .form button {
+        color: white;
+        background-color: royalblue;
+        font-family: "Trattatello, fantasy";
+        padding: 5px;
+        margin-left: -10px
+       
+    }
+    
+    .form button:hover {
+        background: white;
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px white;
+        font-weight: bold;
+    }
+    .travelPlan {
+        font-family: "Trattatello, fantasy";
+        font-size: 27px;
+        color: black;
+        font-weight: bold;
+        margin-top: 150px;
+        margin-bottom: 30px;
+        clear: both;
+        float: left;
+        margin-left: 50px;
+    }
+    
+    
+    .addImage {
+        clear: both;
+        float: left;
+        margin-left: 100px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        padding: 5px;
+        border: 2px solid blue;
+        border-radius: 50px 50px;
+        box-shadow: 1px 5px 20px skyblue;
+    }
+    
+    .addImage:hover {
+        background-image: linear-gradient(pink, skyblue);
+        transition: transform .5s ease;
+        transform: scale(1.2);
+    }
+    
+    .popup {
+        position: fixed;
+    }
+    
+    .emptyMsg {
+        margin-left: -10px;
+    
+    }
+    
+    .emptyMsg h3 {
+        margin-left: 205px;
+        font-family: "Trattatello, fantasy";
+        font-size: 24px;
+        font-weight: bold;
+        color: blue;
+        background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%);
+        float: left;
+    }
+    
+    .travelPlan1 {
+        font-family: "Trattatello, fantasy";
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        clear: both;
+        float: left;
+        margin-left: 202px;
+    }
+    
+    
+    .form1 {
+        padding: 15px;
+        margin-left: 80px;
+        margin-top: 100px;
+        width: 300px;
+        height: 320px;
+        border: 1px solid royalblue;
+        clear: both;
+        float: left;
+        align-items: center;
+        box-shadow: 0 3px 10px royalblue;
+        
+    }
+    
+    
+    .form1:hover {
+        background: rgba(0,0,0,0);
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px royalblue;
+    }
+    
+    .form1 input {
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Trattatello, fantasy";
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        color: black;
+    }
+    
+    .form1 button {
+        color: white;
+        background-color: royalblue;
+        font-family: "Trattatello, fantasy";
+        padding: 5px;
+        margin-left: 80px;
+    }
+    
+    .form1 button:hover {
+        background: white;
+        color: royalblue;
+        box-shadow: inset 0 0 0 3px white;
+        font-weight: bold;
+    }
+    
+    
+    
 }
-
-.travelPlan {
-    font-family: "Trattatello, fantasy";
-    font-size: 27px;
-    color: black;
-    font-weight: bold;
-    margin-bottom: 35px;
-    margin-left: -645px;
-}
-

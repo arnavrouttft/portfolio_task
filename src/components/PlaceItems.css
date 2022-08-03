@@ -1,52 +1,322 @@
-.dynamicIcon {
-    position: absolute;
-    margin-left: 65%;
-    margin-top: 101px;
-    width: 17%;
-    float: left;
-    background-color: aliceblue;
-    height: 400px;
-    border-radius: 20px;
-    margin-top: -480px;
-    border: 1px;
-    border-style: outset;
-    font-family:"Trattatello, fantasy";
-    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+@media (min-width: 970px) {
+    .dynamicIcon {
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 101px;
+        width: 17%;
+        float: left;
+        background-color: aliceblue;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: -470px;
+        border: 1px;
+        border-style: outset;
+        font-family:"Trattatello, fantasy";
+        box-shadow: 1px 5px 20px rgb(99, 99, 99);
+    
+        
+    }
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
+    
+    .dynamicIcon:hover {
+        animation: bounce 1s;
+    }
+    
+    .wrappp {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    
+    .urlBtn h5 button {
+        margin-left: 300px;
+    }
+    
+    .place {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        margin-right: 80px;
+    }
+    
+    .addbtn {
+        margin-right: -30px;
+        width: 30px;
+        background-image: linear-gradient(skyblue, pink);
+        margin-right: 1px;
+        border-radius: 30px;
+    }
+    
+    .addbtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .btnbtn {
+        padding: 5px;
+        margin-right: 30px;
+        margin-top: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        border-radius: 30px;
+    }
+    
+    .btnbtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .inputU {
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    
+    .imgbtn{
+        margin-bottom: 25px;
+        align-items: center;
+        width:20px;
+        float: left;
+    }
+    
+    .btn2 {
+        float: right;
+        width: 25px;
+        margin-right: 20px;
+        background-image: linear-gradient(skyblue, pink);
+        border-radius: 30px;
+    }
+    
+    .btn2:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
 }
 
-.wrappp {
-    margin-left: 10%;
+@media (min-width: 471px) and (max-width: 969px) {
+    .dynamicIcon {
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 101px;
+        width: 17%;
+        float: left;
+        background-color: aliceblue;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: -470px;
+        border: 1px;
+        border-style: outset;
+        font-family:"Trattatello, fantasy";
+        box-shadow: 1px 5px 20px rgb(99, 99, 99);
+    
+        
+    }
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
+    
+    .dynamicIcon:hover {
+        animation: bounce 1s;
+    }
+    
+    .wrappp {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    
+    .urlBtn h5 button {
+        margin-left: 300px;
+    }
+    
+    .place {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        margin-right: 80px;
+    }
+    
+    .addbtn {
+        margin-right: -30px;
+        width: 30px;
+        background-image: linear-gradient(skyblue, pink);
+        margin-right: 1px;
+        border-radius: 30px;
+    }
+    
+    .addbtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .btnbtn {
+        padding: 5px;
+        margin-right: 30px;
+        margin-top: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        border-radius: 30px;
+    }
+    
+    .btnbtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .inputU {
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    
+    .imgbtn{
+        margin-bottom: 25px;
+        align-items: center;
+        width:20px;
+        float: left;
+    }
+    
+    .btn2 {
+        float: right;
+        width: 25px;
+        margin-right: 20px;
+        background-image: linear-gradient(skyblue, pink);
+        border-radius: 30px;
+    }
+    
+    .btn2:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
 }
 
-.urlBtn h5 button {
-    margin-left: 300px;
-}
-
-.place {
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 25px;
-    margin-right: 80px;
-}
-
-.addbtn {
-    margin-right: -30px;
-    width: 20px;
-}
-
-.btnbtn {
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.imgbtn{
-    margin-right: 80px;
-    align-items: center;
-    width:20px;
-
-}
-
-.btn2 {
-    margin-left: 10px;
-    width: 20px;
+@media (max-width: 470px) {
+    .dynamicIcon {
+        position: absolute;
+        margin-left: 25%;
+        width: 45%;
+        float: left;
+        background-color: aliceblue;
+        height: 300px;
+        border-radius: 20px;
+        margin-top: 50px;
+        border: 1px;
+        border-style: outset;
+        font-family:"Trattatello, fantasy";
+        box-shadow: 1px 5px 20px rgb(99, 99, 99);
+    
+        
+    }
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
+    
+    .dynamicIcon:hover {
+        animation: bounce 1s;
+    }
+    
+    .wrappp {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    
+    .urlBtn h5 button {
+        margin-left: 300px;
+    }
+    
+    .place {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        margin-right: 80px;
+    }
+    
+    .addbtn {
+        margin-right: -30px;
+        width: 30px;
+        background-image: linear-gradient(skyblue, pink);
+        margin-right: 1px;
+        border-radius: 30px;
+    }
+    
+    .addbtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .btnbtn {
+        padding: 5px;
+        margin-right: 30px;
+        margin-top: 10px;
+        background-image: linear-gradient(skyblue, pink);
+        border-radius: 30px;
+    }
+    
+    .btnbtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .inputU {
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    
+    .imgbtn{
+        margin-bottom: 25px;
+        align-items: center;
+        width:20px;
+        float: left;
+    }
+    
+    .btn2 {
+        float: right;
+        width: 25px;
+        margin-right: 20px;
+        background-image: linear-gradient(skyblue, pink);
+        border-radius: 30px;
+    }
+    
+    .btn2:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
 }

@@ -1,57 +1,187 @@
-
-*{
-    padding: 0;
-    margin: 0;
+@media (min-width: 970px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    
+    .mainHeading {
+        padding: 5px;
+        height: 65px;
+        background-color: white;
+    }
+    
+    .t{
+        font-size: 30px;
+        font-family: "Trattatello, fantasy";
+    }
+    
+    .navbar {
+        font-family: "Trattatello, fantasy";
+        width: 95%;
+        margin: auto;
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navBranding {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+        font-size: 20px;
+       
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    
+    }
+    
+    .navMenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 45px;
+    }
+    
 }
 
-
-
-.mainHeading {
-    padding: 5px;
-    height: 65px;
-    background-image: linear-gradient(skyblue, pink);
+@media (min-width: 471px) and (max-width: 969px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    
+    .mainHeading {
+        padding: 5px;
+        height: 65px;
+        background-color: white;
+    }
+    
+    .t{
+        font-size: 30px;
+        font-family: "Trattatello, fantasy";
+    }
+    
+    .navbar {
+        font-family: "Trattatello, fantasy";
+        width: 95%;
+        margin: auto;
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navBranding {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+        font-size: 20px;
+       
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    
+    }
+    
+    .navMenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 45px;
+    }
+    
 }
 
-.t{
-    font-size: 30px;
-    font-family: "Trattatello, fantasy";
-}
+@media (max-width: 470px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    
+    .mainHeading {
+        padding: 5px;
+        height: 15px;
+        background-color: white;
+        margin-bottom: 70px;
+    }
+    
+    .t{
+        font-size: 30px;
+        font-family: "Trattatello, fantasy";
+    }
+    
+    .navbar {
+        font-family: "Trattatello, fantasy";
+        width: 25%;
+        margin: auto;
+        min-height: 70px;
+        align-items: center;
+    }
+    
+    .navBranding {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        margin-left: 10px;
+        font-size: 20px;
+       
+    }
+    
+    a {
+       
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+    
+    }
+    
+    .navMenu {
+        display: flex;
+        text-align: center;
+       position: absolute;
+        align-items: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: 120px;
+        margin-left: -150px;
 
-.navbar {
-    font-family: "Trattatello, fantasy";
-    width: 95%;
-    margin: auto;
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    }
 
-.navBranding {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10px;
-    font-size: 20px;
-   
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 20px;
-
-}
-
-.navMenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 20px;
+    .navLink {
+        margin-right: 55px;
+    }   
+    
 }

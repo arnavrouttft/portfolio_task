@@ -1,41 +1,54 @@
 import React from 'react'
 import './Footer.css'
 
+import facebookk from "../images/facebookwhite.png";
+import instagramm from "../images/InstagramWHITE.png";
+import twitterr from "../images/twitterwhite.png";
+import linkedinn from "../images/linkedinwhite.png";
+import youtubee from "../images/youtubewhite.png";
+
 function Footer() {
   return (
     <footer>
-              <div>
-                <a className='aa' href="https://facebook.com/"><i className='fa fa-facebook-f '></i></a>
-                <a className='aa' href="https://www.instagram.com/"><i className='fa fa-instagram '></i></a>
-                <a className='aa' href="https://www.twitter.com/"><i className='fa fa-twitter '></i></a>
-                <a className='aa' href="https://www.linkedin.com/"><i className='fa fa-linkedin '></i></a>
-                <a className='aa' href="https://www.youtube.com/"><i className='fa fa-youtube '></i></a>
+              <div className='icicon'>
+                <a href="https://www.facebook.com/">
+                <img src={facebookk} alt="" height="30px" width="30px" />
+                </a>
+                <a href="https://www.instagram.com/">
+                <img src={instagramm} alt="" height="30px" width="30px" />
+                </a>
+                <a href="https://twitter.com/">
+                <img src={twitterr} alt="" height="30px" width="30px" />
+                </a>
+                <a href="https://www.linkedin.com/">
+                <img src={linkedinn} alt="" height="30px" width="30px" />
+                </a>
+                <a href="https://www.youtube.com/">
+                <img src={youtubee} alt="" height="30px" width="30px" />
+                </a>
+               
               </div>
 
-      <div className='container'>
-        <div className='row1'>
-          <div className='col-6  mx-auto'>
-            <div className='row'>
-              <div className='col-6 col-lg-3'>
+      <div className='about'>
+        
+              
                 <p>Contact Us</p>
-              </div>
-              <div className='col-6 col-lg-3'>
+              
+              
                 <p>About Us</p>
-              </div>
-              <div className='col-6 col-lg-3'>
+              
+              
                 <p>Terms of Service</p>
-              </div>
-              <div className='col-6 col-lg-3'>
+              
+              
                 <p>Privacy Policy</p>
-              </div>
+              
             </div>
 
-            <div className='mt-2'>
+            <div>
               <p>(c) 2022 Applause Creators, Inc. All rights reserved.</p>
             </div>
-          </div>
-        </div>
-      </div>
+         
     </footer>
     
   )

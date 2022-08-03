@@ -1,282 +1,945 @@
-.App {
-  text-align: center;
-  background-image: linear-gradient(skyblue, pink);
-}
-
-.position{
-  margin-left: 74%;
-  font-size: 1.2rem;
-  margin-bottom: -25px;
-}
-
-.me-auto {
-  margin-left: 30px;
-  color: black;
-}
-
-.appLogo {
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 18px;
-  width: 110px;
-  height: 10px;
-}
-
-
-.coverimage {
-  width: 100%;
-  height: 400px;
-  margin-top: 40px;
-
-}
-
-.profileimage {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  top: 365px;
-  left: 190px;
-  border-radius: 200px;
-  border: 3px solid royalblue;
-  box-shadow: 2px 2px 2px 2px royalblue;
-}
-
-#parent {
-  position: relative;
-}
-
-
-/*--------For Icons-------*/
-.icon {
-  margin-top: 40px;
-  margin-left: 450px;
-  margin-bottom: 40px;
-
-}
-
-
-
-
-/*------User Information----*/
-
-.userInfo1 {
-  font-family:"Trattatello, fantasy";
-  margin-top: 90px;
-  margin-left: -720px;
-  margin-bottom: 14px;
-  font-weight: bold;
- }
- 
- .userInfo2 {
-   font-family:"Trattatello, fantasy";
-   margin-top: -10px;
-   margin-left: -780px;
-   font-weight: bold;
+@media (min-width: 970px) {
+  .App {
+    text-align: center;
   }
- 
- .para {
-   margin-left: -216px;
-   margin-top: 20px;
-   font-family:"Trattatello, fantasy";
- }
-
-
-/*--------For Buttons--------*/
-.button1 {
-  font-family: "Trattatello, fantasy";
-  background-color: #eee;
-  border: none;
-  color: black;
-  padding: 12px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-.buttons {
-  margin-top: 20px;
-  margin-left: -680px;
-}
-
-.arnav {
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 19px;
-  margin-left: -63%;
-  margin-top: 30px;
-  color: #282829;
-}
-
-.interest {
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 19px;
-  color: #fb7686;
-  margin-top: -30px;
-  margin-left: -23%;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-
-}
-
-/*--------Card Image---------*/
-.banner {
-  position: relative;
-  width: 100%;
-  margin-top: 20px;
-
-}
-
-.banner img {
-  width: 720px;
-  height: 180px;
-  margin-top: 20px;
-  margin-left: -200px;
-  box-shadow: 5px 5px 5px;
-  margin-bottom: 100px;
-  border: 5px solid oldlace;
-  border-radius: 20px;
+  
+  .position{
+    margin-left: 74%;
+    font-size: 1.2rem;
+    margin-bottom: -25px;
+  }
+  
+  .me-auto {
+    margin-left: 30px;
+    color: black;
+  }
+  
+  .appLogo {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 18px;
+    width: 110px;
+    height: 10px;
+  }
+  
+  
+  .coverimage {
+    overflow-y: hidden;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    border: 1px;
+    border-style: outset;
+    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+  
+  }
+  
+  .profileimage {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 320px;
+    left: 190px;
+    border-radius: 200px;
+    border: 3px solid royalblue;
+   
+  }
+  
+  .profileimage:hover {
+    transform: scale(1.1); 
+  }
+  
+  #parent {
+    position: relative;
+  }
+  
+  
+  /*--------For Icons-------*/
+  .icon {
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  
+  
+  /*------User Information----*/
+  
+  .userInfo1 {
+    font-family:"Trattatello, fantasy";
+    margin-top: 90px;
+    margin-left: -740px;
+    margin-bottom: 14px;
+    font-weight: bold;
+   }
+   
+   .userInfo2 {
+     font-family:"Trattatello, fantasy";
+     margin-top: -10px;
+     margin-left: -800px;
+     font-weight: bold;
+    }
+   
+   .para {
+    text-align: left;
+     margin-left: 180px;
+     margin-top: 20px;
+     font-family:"Trattatello, fantasy";
+   }
+  
+  
+  /*--------For Buttons--------*/
+  .button1 {
+    font-family: "Trattatello, fantasy";
+    background-color: #eee;
+    border: none;
+    color: black;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    margin-left: -700px;
+  }
+  
+  .arnav {
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: -63%;
+    margin-top: 30px;
+    color: #282829;
+  }
+  
+  .interest {
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 19px;
+    color: #fb7686;
+    margin-top: -30px;
+    margin-left: -23%;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  
+  }
+  
+  /*--------Card Image---------*/
+  .banner {
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+  
+  }
+  
+  .banner img {
+    width: 720px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: -200px;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 100px;
+    border: 5px solid oldlace;
+    border-radius: 20px;
+    
+  }
+  
+  .heading {
+    color: black;
+    position: absolute;
+    top: 10%;
+    right: 850px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 27px;
+  }
+  
+  .content {
+    color: black;
+    position: absolute;
+    right: 81%;
+    top: 110px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .content1 {
+    color: black;
+    position: absolute;
+    right: 70%;
+    top: 110px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .p1 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    right: 28%;
+    top: 115px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .p2 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    right: 16%;
+    top: 115px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .p3 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    left: -265px;
+    top: 157px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+  }
+  
+  .tour{
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: -655px;
+    font-size: 25px;
+  }
+  
+  /*----------Animation part--------------*/
+  .kashmir {
+    width: 170px;
+    height: 100%;
+    margin-left: -240px;
+  }
+  .k{
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -145px;
+    margin-left: 206px;
+    display: flex;
+  }
+  
+  .date {
+    font-family: "Trattatello, fantasy";
+    margin-left: 2px;
+    color: #2134ad;
+    font-weight:bolder
+  }
+  .month {
+    font-family: "Trattatello, fantasy";
+    margin-left: 28%;
+    color: red;
+    margin-top: -40px;
+    font-weight:bolder
+  }
+  
+  .bookNow {
+    width: 35%;
+    position: absolute;
+    border: 1px solid purple;
+    border-radius: 50px;
+    margin-left: 200px;
+    background-color: purple;
+    color: whitesmoke;
+    position: static;
+  }
+  
+  .boxAnimation {
+    clear: both;
+    float: left;
+    margin-left: 14%;
+    margin-bottom: 30px;
+    width: 450px;
+    height: 180px;
+    background-image: linear-gradient(pink, skyblue);
+    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+    border-radius: 10px;
+  }
+  
+  .boxAnimation:hover {
+    animation: animate 0.5s linear forwards;
+    border: 3px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-3deg);
+    }
+  }
+  
+  .emptyMsg {
+    font-family: "Trattatello, fantasy";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    float: left;
+    margin-left: 180px;
+  }
+  
+  .bin {
+    float: left;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 145px;
+  }
+  
+  .bin:hover {
+    transition: transform .5s ease;
+    transform: scale(1.3);
+  }
   
 }
 
-.heading {
-  color: black;
-  position: absolute;
-  top: 10%;
-  right: 850px;
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 27px;
-}
-
-.content {
-  color: black;
-  position: absolute;
-  right: 81%;
-  top: 110px;
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.content1 {
-  color: black;
-  position: absolute;
-  right: 70%;
-  top: 110px;
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.p1 {
-  color: black;
-  position: absolute;
-  right: 28%;
-  top: 115px;
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.p2 {
-  color: black;
-  position: absolute;
-  right: 16%;
-  top: 115px;
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.p3 {
-  color: black;
-  position: absolute;
-  left: -265px;
-  top: 157px;
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-}
-
-.tour{
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  margin-bottom: 300px;
-  margin-left: -650px;
-  font-size: 25px;
-}
-
-/*----------Animation part--------------*/
-.kashmir {
-  width: 170px;
-  height: 100%;
-  margin-left: -240px;
-}
-.k{
-  font-family: "Trattatello, fantasy";
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: -145px;
-  margin-left: 20px;
-}
-
-.date {
-  font-family: "Trattatello, fantasy";
-  margin-left: 2px;
-  color: #2134ad;
-  font-weight:bolder
-}
-.month {
-  font-family: "Trattatello, fantasy";
-  margin-left: 17%;
-  color: red;
-  margin-top: -40px;
-  font-weight:bolder
-}
-
-.bookNow {
-  width: 25%;
-  position: absolute;
-  border: 1px solid purple;
-  border-radius: 50px;
-  margin-left: 205px;
-  background-color: purple;
-  color: whitesmoke;
-  position: static;
-}
-
-.boxAnimation {
-  clear: both;
-  float: left;
-  margin-left: 15%;
-  margin-top: -250px;
-  width: 450px;
-  height: 180px;
-  background-image: linear-gradient(pink, skyblue);
-  border-radius: 10px;
-  /* box-shadow: 1px 1px 1px 1px purple; */
-}
-
-.boxAnimation:hover {
-  animation: animate 0.5s linear forwards;
-  border: 3px solid blue;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-@keyframes animate {
-  0% {
-    transform: rotate(0deg);
+@media (min-width: 471px) and (max-width: 969px) {
+  .App {
+    text-align: center;
   }
-  100% {
-    transform: rotate(-3deg);
+  
+  .position{
+    margin-left: 74%;
+    font-size: 1.2rem;
+    margin-bottom: -25px;
   }
+  
+  .me-auto {
+    margin-left: 30px;
+    color: black;
+  }
+  
+  .appLogo {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 18px;
+    width: 110px;
+    height: 10px;
+  }
+  
+  
+  .coverimage {
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    border: 1px;
+    border-style: outset;
+    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+  
+  }
+  
+  .profileimage {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 320px;
+    left: 190px;
+    border-radius: 200px;
+    border: 3px solid royalblue;
+   
+  }
+  
+  .profileimage:hover {
+    transform: scale(1.1); 
+  }
+  
+  #parent {
+    position: relative;
+  }
+  
+  
+  /*--------For Icons-------*/
+  .icon {
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  
+  
+  /*------User Information----*/
+  
+  .userInfo1 {
+    font-family:"Trattatello, fantasy";
+    margin-top: 90px;
+    margin-left: -720px;
+    margin-bottom: 14px;
+    font-weight: bold;
+   }
+   
+   .userInfo2 {
+     font-family:"Trattatello, fantasy";
+     margin-top: -10px;
+     margin-left: -780px;
+     font-weight: bold;
+    }
+   
+   .para {
+     margin-left: -216px;
+     margin-top: 20px;
+     font-family:"Trattatello, fantasy";
+   }
+  
+  
+  /*--------For Buttons--------*/
+  .button1 {
+    font-family: "Trattatello, fantasy";
+    background-color: #eee;
+    border: none;
+    color: black;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    margin-left: -680px;
+  }
+  
+  .arnav {
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: -63%;
+    margin-top: 30px;
+    color: #282829;
+  }
+  
+  .interest {
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 19px;
+    color: #fb7686;
+    margin-top: -30px;
+    margin-left: -23%;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  
+  }
+  
+  /*--------Card Image---------*/
+  .banner {
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+  
+  }
+  
+  .banner img {
+    width: 720px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: -200px;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 100px;
+    border: 5px solid oldlace;
+    border-radius: 20px;
+    
+  }
+  
+  .heading {
+    color: black;
+    position: absolute;
+    top: 10%;
+    right: 850px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 27px;
+  }
+  
+  .content {
+    color: black;
+    position: absolute;
+    right: 81%;
+    top: 110px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .content1 {
+    color: black;
+    position: absolute;
+    right: 70%;
+    top: 110px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .p1 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    right: 28%;
+    top: 115px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .p2 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    right: 16%;
+    top: 115px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .p3 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    left: -265px;
+    top: 157px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+  }
+  
+  .tour{
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: -655px;
+    font-size: 25px;
+  }
+  
+  /*----------Animation part--------------*/
+  .kashmir {
+    width: 170px;
+    height: 100%;
+    margin-left: -240px;
+  }
+  .k{
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -145px;
+    margin-left: 206px;
+    display: flex;
+  }
+  
+  .date {
+    font-family: "Trattatello, fantasy";
+    margin-left: 2px;
+    color: #2134ad;
+    font-weight:bolder
+  }
+  .month {
+    font-family: "Trattatello, fantasy";
+    margin-left: 17%;
+    color: red;
+    margin-top: -40px;
+    font-weight:bolder
+  }
+  
+  .bookNow {
+    width: 35%;
+    position: absolute;
+    border: 1px solid purple;
+    border-radius: 50px;
+    margin-left: 200px;
+    background-color: purple;
+    color: whitesmoke;
+    position: static;
+  }
+  
+  .boxAnimation {
+    clear: both;
+    float: left;
+    margin-left: 14%;
+    margin-bottom: 30px;
+    width: 450px;
+    height: 180px;
+    background-image: linear-gradient(pink, skyblue);
+    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+    border-radius: 10px;
+  }
+  
+  .boxAnimation:hover {
+    animation: animate 0.5s linear forwards;
+    border: 3px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-3deg);
+    }
+  }
+  
+  .emptyMsg {
+    font-family: "Trattatello, fantasy";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    float: left;
+    margin-left: 180px;
+  }
+  
+  .bin {
+    float: left;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 145px;
+  }
+  
+  .bin:hover {
+    transition: transform .5s ease;
+    transform: scale(1.3);
+  }
+  
 }
 
-
-/*-----Media Query--------*/
+@media (max-width: 470px) {
+  .App {
+    text-align: center;
+  }
+  
+  .position{
+    margin-left: 74%;
+    font-size: 1.2rem;
+    margin-bottom: -25px;
+  }
+  
+  .me-auto {
+    margin-left: 30px;
+    color: black;
+  }
+  
+  .appLogo {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 18px;
+    width: 110px;
+    height: 10px;
+  }
+  
+  
+  .coverimage {
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    border: 1px;
+    border-style: outset;
+    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+  
+  }
+  
+  .profileimage {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    border-radius: 200px;
+    border: 3px solid royalblue;
+   
+  }
+  
+  .profileimage:hover {
+    transform: scale(1.1); 
+  }
+  
+  #parent {
+    position: relative;
+  }
+  
+  
+  /*--------For Icons-------*/
+  .icon {
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  
+  
+  /*------User Information----*/
+  
+  .userInfo1 {
+    font-family:"Trattatello, fantasy";
+    margin-top: 60px;
+    margin-left: -255px;
+    margin-bottom: 14px;
+    font-weight: bold;
+    font-size: 25px;
+   }
+   
+   .userInfo2 {
+     font-family:"Trattatello, fantasy";
+     margin-top: -10px;
+     margin-left: -280px;
+     font-weight: bold;
+    }
+   
+   .para {
+    text-align: left;
+     margin-left: 30px;
+     margin-top: 20px;
+     font-family:"Trattatello, fantasy";
+   }
+  
+  
+  /*--------For Buttons--------*/
+  .button1 {
+    font-family: "Trattatello, fantasy";
+    background-color: #eee;
+    border: none;
+    color: black;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    margin-left: -175px;
+  }
+  
+  .arnav {
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: -70%;
+    margin-top: 10px;
+    color: #282829;
+  }
+  
+  .interest {
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 15px;
+    color: #fb7686;
+    margin-top: -25px;
+    margin-left: 90px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  
+  }
+  
+  /*--------Card Image---------*/
+  .banner {
+    position: relative;
+    width: 100%;
+    margin-top: 380px;
+  
+  }
+  
+  .banner img {
+    width: 420px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 0px;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 100px;
+    border: 5px solid oldlace;
+    border-radius: 20px;
+    
+  }
+  
+  .heading {
+    color: black;
+    position: absolute;
+    top: 10%;
+    right: 220px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .content {
+    color: black;
+    position: absolute;
+    right: 85%;
+    top: 110px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .content1 {
+    color: black;
+    position: absolute;
+    right: 65%;
+    top: 110px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .p1 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    right: 29%;
+    top: 115px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .p2 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    right: 5%;
+    top: 115px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .p3 {
+    width: 100%;
+    color: black;
+    position: absolute;
+    left: -28px;
+    top: 157px;
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+  }
+  
+  .tour{
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: -175px;
+    font-size: 22px;
+  }
+  
+  /*----------Animation part--------------*/
+  .kashmir {
+    width: 140px;
+    height: 100%;
+    margin-left: -240px;
+  }
+  .k{
+    font-family: "Trattatello, fantasy";
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -145px;
+    margin-left: 185px;
+    display: flex;
+  }
+  
+  .date {
+    font-family: "Trattatello, fantasy";
+    margin-left: 2px;
+    color: #2134ad;
+    font-weight:bolder
+  }
+  .month {
+    font-family: "Trattatello, fantasy";
+    margin-left: 29%;
+    color: red;
+    margin-top: -40px;
+    font-weight:bolder
+  }
+  
+  .bookNow {
+    width: 35%;
+    position: absolute;
+    border: 1px solid purple;
+    border-radius: 50px;
+    margin-left: 200px;
+    background-color: purple;
+    color: whitesmoke;
+    position: static;
+  }
+  
+  .boxAnimation {
+    clear: both;
+    float: left;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 180px;
+    background-image: linear-gradient(pink, skyblue);
+    box-shadow: 1px 5px 20px rgb(99, 99, 99);
+    border-radius: 10px;
+  }
+  
+  .boxAnimation:hover {
+    animation: animate 0.5s linear forwards;
+    border: 3px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-3deg);
+    }
+  }
+  
+  .emptyMsg {
+    font-family: "Trattatello, fantasy";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    float: left;
+    margin-left: 180px;
+  }
+  
+  .bin {
+    float: left;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  
+  .bin:hover {
+    transition: transform .5s ease;
+    transform: scale(1.3);
+  }
+  
+}

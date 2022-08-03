@@ -5,6 +5,9 @@ import "./PlaceItems.css";
 
 function Place() {
   const [places, setPlaces] = useState([{ name: "", url: ""}]);
+
+  const [showbtn, setShowbtn] = useState(false);
+  
   const [add,setAdd]=useState(false);
   const[name,setName]=useState();
   const[url,setUrl]=useState();
@@ -39,10 +42,17 @@ function Place() {
 
   const onClickHandler = () => {
     setAdd(true);
+    setShowbtn(true);
   };
+
+  const showBtnHandler = () => {
+    setAdd(false);
+    setShowbtn(false);
+  }
 
   const submitHandler=()=>{
     setAdd(false);
+    setShowbtn(false);
     
     const newPlace={name:name,url:url}
     places.push(newPlace)
@@ -85,14 +95,18 @@ setUrl(event.target.value);
         <br></br>
         <ul>{placeList}</ul>
         { add && <card-4>
-          <label htmlFor="">Url</label> <input onChange={urlHandler} placeholder="url" />
-          <label htmlFor="">Name</label>
-          <input onChange={nameHandler} type="text" placeholder="name" />
+          <label htmlFor="">Url</label> 
+          <input className="inputU" onChange={urlHandler} placeholder="url" />
+          <label  htmlFor="">Name</label>
+          <input className="inputU" onChange={nameHandler} type="text" placeholder="name" />
           <button className="btnbtn" onClick={submitHandler}>submit</button>
         </card-4>}
-        <button className="addbtn" onClick={onClickHandler} >
+       {!showbtn && <button className="addbtn" onClick={onClickHandler} >
           +
-        </button>
+        </button>}
+        {showbtn && <button className="addbtn" onClick={showBtnHandler} >
+          -
+        </button>}
       </div>
     </div>
   );

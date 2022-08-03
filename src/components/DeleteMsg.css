@@ -1,0 +1,167 @@
+@media (min-width: 970px) {
+    .deletePop {
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        margin-left: 700px;
+        margin-top: 20px;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+    }
+    
+    
+    
+    .deletePop h5 {
+        font-family: "Trattatello, fantasy";
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .buttonss {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 50px;
+    }
+    
+    
+    .noBtn {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    .noBtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .yesBtn {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    .yesBtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+}
+
+@media (min-width: 471px) and (max-width: 969px) {
+    .deletePop {
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        margin-left: 700px;
+        margin-top: 20px;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+    }
+    
+    
+    
+    .deletePop h5 {
+        font-family: "Trattatello, fantasy";
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .buttonss {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 50px;
+    }
+    
+    
+    .noBtn {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    .noBtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .yesBtn {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    .yesBtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+}
+
+@media (max-width: 470px) {
+    .deletePop {
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        margin-left: 50px;
+        margin-top: 200px;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+    }
+    
+    
+    
+    .deletePop h5 {
+        font-family: "Trattatello, fantasy";
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .buttonss {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 50px;
+    }
+    
+    
+    .noBtn {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    .noBtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+    
+    .yesBtn {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-image: linear-gradient(skyblue, pink);
+    }
+    
+    .yesBtn:hover {
+        transition: transform .5s ease;
+        transform: scale(1.2);
+      }
+}

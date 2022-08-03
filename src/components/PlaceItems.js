@@ -10,18 +10,23 @@ const PlaceItems = (props) => {
     if (props.name === "") {
       return;
     }
+    
+    let image; 
+    try 
+    {const img_name = props.url.split('.');
+     image = require(`../images/${img_name[1]}.png`)}
 
-   const image = require('../images/'+props.name+'.png')
+    catch {
+      image = require ("../images/buffer.png")
+    }
 
   return (
     <div className="wrappp">
-    <div className="">
-      <a target="_blank" href={props.url}>
-        <img className="imgbtn" src={image} alt="" height="25px" width="25px" />
+      <a  target="_blank" href={props.url}>
+        <img className="imgbtn" src={image} alt="icons" height="25px" width="25px"/>
         {props.name}
       </a>
       <button className="btn2" onClick={onClickHandler}>-</button>
-    </div>
     </div>
   );
 };
