@@ -59,8 +59,8 @@
         position: absolute;
         width: 230px;
         height: 110px;
-        margin-left: 470px;
-        margin-top: 20px;
+        margin-left: 70px;
+        margin-top: 170px;
         background-color: lightgray;
         border-radius: 20px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
@@ -113,8 +113,8 @@
 @media (max-width: 470px) {
     .deletePop {
         position: absolute;
-        width: 300px;
-        height: 150px;
+        width: 250px;
+        height: 125px;
         margin-left: 50px;
         margin-top: 200px;
         background-color: lightgray;
@@ -127,7 +127,7 @@
     .deletePop h5 {
         font-family: "Trattatello, fantasy";
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: bold;
     }
     
@@ -137,13 +137,13 @@
         align-items: center;
         margin-left: 75px;
         margin-right: 75px;
-        margin-top: 50px;
+        margin-top: 40px;
     }
     
     
     .noBtn {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         border-radius: 20px;
         background-image: linear-gradient(skyblue, pink);
     }
@@ -154,8 +154,8 @@
       }
     
     .yesBtn {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         border-radius: 20px;
         background-image: linear-gradient(skyblue, pink);
     }

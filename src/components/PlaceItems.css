@@ -109,13 +109,13 @@
 @media (min-width: 471px) and (max-width: 969px) {
     .dynamicIcon {
         position: absolute;
-        margin-left: 62%;
-        width: 27%;
+        margin-left: 60%;
+        width: 35%;
         float: left;
         background-color: aliceblue;
-        height: 350px;
+        height: 280px;
         border-radius: 20px;
-        margin-top: -440px;
+        margin-top: -450px;
         border: 1px;
         border-style: outset;
         font-family:"Trattatello, fantasy";
@@ -157,7 +157,7 @@
     .place {
         margin-top: 15px;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 22px;
         margin-right: 80px;
     }
     
@@ -197,6 +197,7 @@
         align-items: center;
         width:20px;
         float: left;
+        margin-left: -15px;
     }
     
     .btn2 {
@@ -217,12 +218,12 @@
     .dynamicIcon {
         position: absolute;
         margin-left: 25%;
-        width: 45%;
+        width: 55%;
         float: left;
         background-color: aliceblue;
-        height: 300px;
+        height: 270px;
         border-radius: 20px;
-        margin-top: 50px;
+        margin-top: 40px;
         border: 1px;
         border-style: outset;
         font-family:"Trattatello, fantasy";
@@ -264,7 +265,7 @@
     .place {
         margin-top: 15px;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 20px;
         margin-right: 80px;
     }
     
