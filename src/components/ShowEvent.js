@@ -58,6 +58,11 @@ function ShowEvent() {
         }
 
     }
+    const contactHandler = (e) => {
+        if (details.contact.length <= 10) {
+            setDetails({...details, contact:e.target.value})
+        }
+    }
   return (
     <div>
 
@@ -66,8 +71,7 @@ function ShowEvent() {
             setDetails({...details,dName:e.target.value})} /> <br />
         <input value={details.dateT} type='date' placeholder='Enter Date' onChange={(e)=>
             setDetails({...details,dateT:e.target.value})}  /> <br />
-        <input value={details.contact} type='number' placeholder='Enter Contact Number' onChange={(e)=>
-            setDetails({...details, contact:e.target.value})} /> <br />
+        <input value={details.contact} type='number' placeholder='Enter Contact Number' onChange={contactHandler} /> <br />
         <button  id="submit" onClick={PostData}>Submit Here</button>
 
         </form>
