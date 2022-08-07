@@ -59,7 +59,7 @@ function ShowEvent() {
 
     }
     const contactHandler = (e) => {
-        if (details.contact.length <= 10) {
+        if (details.contact.length <= 9) {
             setDetails({...details, contact:e.target.value})
         }
     }
