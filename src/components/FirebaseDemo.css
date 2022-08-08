@@ -435,9 +435,9 @@
     
     .form1 {
         padding: 15px;
-        margin-left: 40px;
+        margin-left: 15%;
         margin-top: 100px;
-        width: 300px;
+        width: 70%;
         height: 320px;
         border: 1px solid royalblue;
         clear: both;
@@ -455,7 +455,7 @@
     }
     
     .form1 input {
-        width: 270px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;

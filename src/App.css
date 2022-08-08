@@ -135,10 +135,14 @@
   
   /*--------Card Image---------*/
   .banner {
-    position: relative;
-    width: 100%;
+    background-image: url("./images/fadeImage.jpeg");
+    clear: both;
+    float: left;
+    width: 590px;
     margin-top: 80px;
-  
+    margin-left: 14%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px  black;
   }
   
   .banner img {
@@ -154,72 +158,68 @@
   }
   
   .heading {
+    clear: both;
+    float: left;
     color: black;
-    position: absolute;
-    top: 10%;
-    right: 850px;
+   
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 27px;
   }
   
   .content {
+    clear: left;
+    float: left;
     color: black;
-    position: absolute;
-    right: 81%;
-    top: 110px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 30px;
   }
   
   .content1 {
+    margin-left: 15px;
+    float: left;
     color: black;
-    position: absolute;
-    right: 70%;
-    top: 110px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 30px;
   }
   
   .p1 {
-    width: 100%;
+    margin-left: 15px;
+    float: left;
     color: black;
-    position: absolute;
-    right: 28%;
-    top: 115px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 20px;
   }
   
   .p2 {
-    width: 100%;
+    margin-left: 15px;
+    float: left;
     color: black;
-    position: absolute;
-    right: 16%;
-    top: 115px;
+   
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 20px;
   }
   
   .p3 {
-    width: 100%;
+    clear: both;
+    float: left;
     color: black;
-    position: absolute;
-    left: -265px;
-    top: 157px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
   }
   
   .tour{
+    clear: both;
+    float: left;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     margin-bottom: 30px;
-    margin-left: -655px;
+    margin-top: 80px;
+    margin-left: 15%;
     font-size: 25px;
   }
   
@@ -341,6 +341,7 @@
   
   
   .coverimage {
+    float: left;
     width: 100%;
     height: 220px;
     margin-top: 40px;
@@ -351,11 +352,12 @@
   }
   
   .profileimage {
+    clear: both;
     width: 100px;
     height: 100px;
-    position: absolute;
-    top: 210px;
-    left: 70px;
+    float: left;
+    margin-top: -50px;
+    margin-left: 10%;
     border-radius: 200px;
     border: 3px solid royalblue;
    
@@ -384,24 +386,30 @@
   /*------User Information----*/
   
   .userInfo1 {
+    clear: both;
+    float: left;
     font-family:"Trattatello, fantasy";
-    margin-top: 90px;
-    margin-left: -350px;
+    margin-top: 50px;
+    margin-left: 10%;
     margin-bottom: 14px;
     font-weight: bold;
     font-size: 25px;
    }
    
    .userInfo2 {
+    clear: both;
+    float: left;
      font-family:"Trattatello, fantasy";
      margin-top: -10px;
-     margin-left: -370px;
+     margin-left: 10%;
      font-weight: bold;
      font-size: 20px;
     }
    
    .para {
-     margin-left: 50px;
+    clear: both;
+    float: left;
+     margin-left: 10%;
      text-align: left;
      margin-top: 30px;
      font-family:"Trattatello, fantasy";
@@ -426,26 +434,32 @@
   }
   
   .buttons {
+    clear: both;
+    float: left;
     margin-top: 20px;
-    margin-left: -280px;
+    margin-left: 10%;
   }
   
   .arnav {
+    clear: both;
+    float: left;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 18px;
-    margin-left: -70%;
+    margin-left: 10%;
     margin-top: 30px;
     color: #282829;
   }
   
   .interest {
+   
+    float: left;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 19px;
     color: #fb7686;
-    margin-top: -30px;
-    margin-left: 15%;
+    margin-top: 30px;
+    margin-left: 15px;
     text-decoration: underline;
     text-decoration-style: wavy;
   
@@ -453,9 +467,15 @@
   
   /*--------Card Image---------*/
   .banner {
+    clear: both;
+    float: left;
+    background-image: url("./images/fadeImage.jpeg");
     position: relative;
-    width: 100%;
+    width: 500px;
     margin-top: 70px;
+    margin-left: 8%;
+    border-radius: 15px;
+    box-shadow: 0 0 30px black;
   
   }
   
@@ -472,72 +492,70 @@
   }
   
   .heading {
+    clear: both;
+    float: left;
     color: black;
-    position: absolute;
-    top: 10%;
-    right: 22.5rem;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 25px;
   }
   
   .content {
+    clear: both;
+    float: left;
     color: black;
-    position: absolute;
-    right: 90%;
-    top: 110px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 25px;
   }
   
   .content1 {
+    float: left;
     color: black;
-    position: absolute;
-    right: 73%;
-    top: 110px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 25px;
+    margin-left: 10px;
   }
   
   .p1 {
-    width: 100%;
+    float: left;
+    
     color: black;
-    position: absolute;
-    right: 35%;
-    top: 115px;
+    margin-left: 10px;
+    margin-top: 5px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 18px;
   }
   
   .p2 {
-    width: 100%;
+  
+    float: left;
     color: black;
-    position: absolute;
-    right: 16%;
-    top: 115px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
     font-size: 18px;
   }
   
   .p3 {
-    width: 100%;
+    clear: both;
+    float: left;
     color: black;
-    position: absolute;
-    left: -105px;
-    top: 157px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
   }
   
   .tour{
+    clear: both;
+    float: left;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
+    margin-top: 100px;
     margin-bottom: 30px;
-    margin-left: -280px;
+    margin-left: 10%;
     font-size: 25px;
   }
   
@@ -666,17 +684,18 @@
     border: 1px;
     border-style: outset;
     box-shadow: 1px 5px 20px rgb(99, 99, 99);
+    float: left;
   
   }
   
   .profileimage {
     width: 70px;
     height: 70px;
-    position: absolute;
-    top: 180px;
-    left: 50px;
+    margin-top: -35px;
+    margin-left: 10%;
     border-radius: 200px;
     border: 3px solid royalblue;
+    float: left;
    
   }
   
@@ -705,25 +724,31 @@
   .userInfo1 {
     font-family:"Trattatello, fantasy";
     margin-top: 50px;
-    margin-left: -215px;
+    margin-left: 10%;
     margin-bottom: 14px;
     font-weight: bold;
     font-size: 22px;
+    clear: both;
+    float: left;
    }
    
    .userInfo2 {
      font-family:"Trattatello, fantasy";
      margin-top: -10px;
-     margin-left: -220px;
+     margin-left: 10%;
      font-weight: bold;
      font-size: 20px;
+     clear: both;
+     float: left;
     }
    
    .para {
     text-align: left;
-     margin-left: 20px;
+     margin-left: 10%;
      margin-top: 20px;
      font-family:"Trattatello, fantasy";
+     clear: both;
+     float: left;
    }
   
   
@@ -746,16 +771,20 @@
   
   .buttons {
     margin-top: 20px;
-    margin-left: -125px;
+    margin-left: 10%;
+    clear: both;
+    float: left;
   }
   
   .arnav {
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 15px;
-    margin-left: -70%;
+    margin-left: 10%;
     margin-top: 10px;
     color: #282829;
+    clear: both;
+    float: left;
   }
   
   .interest {
@@ -764,21 +793,27 @@
     font-size: 15px;
     color: #fb7686;
     margin-top: -5px;
-    margin-left: -30px;
+    margin-left: 10%;
     text-decoration: underline;
     text-decoration-style: wavy;
+    clear: both;
+    float: left;
   
   }
   
   /*--------Card Image---------*/
   .banner {
-    position: relative;
-    width: 100%;
-    margin-top: 380px;
+    background-image: url("./images/fadeImage.jpeg");
+    float: left;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
   
   }
   
   .banner img {
+    
     width: 100%;
     height: 150px;
     margin-top: 40px;
@@ -791,88 +826,91 @@
   }
   
   .heading {
+    clear: both;
+    float: left;
     color: black;
-    position: absolute;
     top: 20%;
-    right: 220px;
+    margin-left: 5%;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .content {
+    clear: left;
+    float: left;
+    margin-left: 5%;
     color: black;
-    position: absolute;
-    right: 93%;
-    top: 110px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 20px;
   }
   
   .content1 {
+   
+    float: left;
     color: black;
-    position: absolute;
-    right: 70%;
-    top: 110px;
+    margin-left: 20px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 20px;
   }
   
   .p1 {
-    width: 100%;
+    
+    float: left;
+    
     color: black;
-    position: absolute;
-    right: 36%;
-    top: 115px;
+    margin-left: 20px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 15px;
   }
   
   .p2 {
-    width: 100%;
+    
+    float: left;
+    margin-left: 20px;
     color: black;
-    position: absolute;
-    right: 9%;
-    top: 115px;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 15px;
   }
   
   .p3 {
-    width: 100%;
+    clear: both;
+    float: left;
     color: black;
-    position: absolute;
-    left: -28px;
-    top: 157px;
+    top: 54%;
+    margin-left: 5%;
     font-family: "Trattatello, fantasy";
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
   }
   
   .tour{
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     margin-bottom: 30px;
-    margin-left: -145px;
+    margin-top: 100px;
     font-size: 20px;
+    margin-left: 5%;
+    clear: both;
+    float: left;
   }
   
   /*----------Animation part--------------*/
   .kashmir {
     width: 100px;
     height: 100%;
-    margin-left: -180px;
+    margin-left: -230px;
   }
   .k{
     font-family: "Trattatello, fantasy";
     font-weight: bold;
     font-size: 20px;
     margin-top: -145px;
-    margin-left: 135px;
+    margin-left: 38%;
     display: flex;
     font-size: 20px;
   }
@@ -888,15 +926,15 @@
     margin-left: 29%;
     color: red;
     margin-top: -40px;
-    font-weight:bolder
+    font-weight:bolder;
   }
   
   .bookNow {
-    width: 35%;
+    width: 40%;
     position: absolute;
     border: 1px solid purple;
     border-radius: 50px;
-    margin-left: 140px;
+    margin-left: 35%;
     background-color: purple;
     color: whitesmoke;
     position: static;

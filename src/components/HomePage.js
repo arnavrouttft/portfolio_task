@@ -9,7 +9,6 @@ import Footer from './Footer';
 
 import cover from "../images/CoverPic.jpg";
 import profile from "../images/dpProfile.png";
-import cardimage from "../images/fadeImage.jpeg";
 
 function HomePage() {
   return (
@@ -42,11 +41,10 @@ function HomePage() {
 
 
     <div className="banner">
-      <img src={cardimage} alt="Card View Pic" />
-      <h4 className="heading">Travel Advanture</h4>
-      <h5 className="content">15</h5>
+      <p className="heading">Travel Advanture</p>
+      <p className="content">15</p>
       <p className="p1">Cities</p>
-      <h5 className="content1">2</h5>
+      <p className="content1">2</p>
       <p className="p2">Countries</p>
       <p className="p3">Travel can inspire you to pursue your passion.</p>
     </div>

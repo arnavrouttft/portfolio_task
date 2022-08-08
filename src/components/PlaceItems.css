@@ -216,7 +216,6 @@
 
 @media (max-width: 549px) {
     .dynamicIcon {
-        position: absolute;
         margin-left: 25%;
         width: 55%;
         float: left;
